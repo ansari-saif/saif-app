@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 app.get('/', (req, res) => {
-    res.json({ hi: "saif10-done n completed" });
+    res.json({ "hey this is my name": "saif" });
 });
 
 
